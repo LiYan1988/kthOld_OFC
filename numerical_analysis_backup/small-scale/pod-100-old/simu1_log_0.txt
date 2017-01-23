@@ -1,0 +1,3 @@
+Architecture: 2 Simulation ID: 0
+Max steps: 50. Initial blocked connections: 548/1812
+========

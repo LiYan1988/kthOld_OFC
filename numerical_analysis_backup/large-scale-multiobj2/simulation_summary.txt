@@ -1,0 +1,12 @@
+1. large scale core sensitivity: 
+	a. arch2 with 0/1/2 guardbands, beta=0, finished, figure plotted
+	b. arch4 with 0/1/2 guardbands, beta=0, finished, figure plotted
+	c. arch2 with 0/1/2 guardbands, beta=100, hebbe
+	d. arch4 with 0/1/2 guardbands, beta=100, hebbe
+	e. pareto arch2, 0 guardband, hebbe
+	f. pareto arch4, 0 guardband, hebbe
+	g. arch 5, is it possible to use arch 2 upper bound?
+2. small scale pareto:
+	a. arch5 finished, glenn
+	b. resource usage analysis, to do
+3. large scale load sensitivity:

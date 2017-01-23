@@ -1,0 +1,25 @@
+1. #connection vs. #POD:
+	a. num_cores = 5
+	b. num_specs = 120
+	c. ILP is feasible for arch2/5 for #POD<=150, done
+	d. arch1 only ILP
+	e. arch4 ILP, SA, and FF
+
+2. #connection vs. load:
+	a. only use SA
+	b. num_cores = 5 or 10
+	c. num_specs = 120 or 360
+	d. arch1, arch2/5, arch4
+	e. num_pods = 50, 100, 150, 200
+
+3. sensitivity analysis
+	a. #cores = {1, 2, 4, 6, ..., 20}
+	b. #specs = {80, 100, 120, 160, 200, 240, 280, 320}
+	c. costs = arch{1,2,4,5}
+	d. traffic patterns
+	e. hardware costs
+
+
+Benchmark: FF and Ajmal's heuristic
+SA
+ILP optima

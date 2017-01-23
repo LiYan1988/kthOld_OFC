@@ -1,0 +1,41 @@
+
+Gurobi 6.5.1 (linux64) logging started Fri Aug  5 12:51:28 2016
+
+Changed value of parameter MIPGap to 0.01
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Changed value of parameter TimeLimit to 1000.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Optimize a model with 3724 rows, 5436 columns and 10872 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 2e+01]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [8e+01, 8e+01]
+Found heuristic solution: objective 0
+Presolve removed 3626 rows and 3658 columns
+Presolve time: 0.03s
+Presolved: 98 rows, 1778 columns, 3529 nonzeros
+Variable types: 0 continuous, 1778 integer (1744 binary)
+
+Root relaxation: objective -1.033307e+03, 270 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1033.3071    0   69    0.00000 -1033.3071      -     -    0s
+H    0     0                    -1012.000000 -1033.3071  2.11%     -    0s
+H    0     0                    -1013.000000 -1033.3071  2.00%     -    0s
+H    0     0                    -1018.000000 -1033.3071  1.50%     -    0s
+     0     0 -1025.0482    0   96 -1018.0000 -1025.0482  0.69%     -    0s
+
+Cutting planes:
+  Cover: 30
+  MIR: 51
+
+Explored 0 nodes (599 simplex iterations) in 0.18 seconds
+Thread count was 2 (of 2 available processors)
+
+Optimal solution found (tolerance 1.00e-02)
+Best objective -1.018000000000e+03, best bound -1.025000000000e+03, gap 0.6876%

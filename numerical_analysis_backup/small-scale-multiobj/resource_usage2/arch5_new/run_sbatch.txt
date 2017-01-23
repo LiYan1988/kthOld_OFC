@@ -1,0 +1,10 @@
+sbatch ru_arch5_0.sh
+sbatch ru_arch5_1.sh
+sbatch ru_arch5_2.sh
+sbatch ru_arch5_3.sh
+sbatch ru_arch5_4.sh
+sbatch ru_arch5_5.sh
+sbatch ru_arch5_6.sh
+sbatch ru_arch5_7.sh
+sbatch ru_arch5_8.sh
+sbatch ru_arch5_9.sh

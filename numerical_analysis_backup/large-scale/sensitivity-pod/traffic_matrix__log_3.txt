@@ -1,0 +1,27 @@
+Architecture: 2 Simulation ID: 3
+Max steps: 1. Initial blocked connections: 3726/31326
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 3714/31326
+Improvement: 12, T: 5
+Accept better result.
+Time elapsed: 15 seconds.
+========
+Architecture: 4 Simulation ID: 3
+Max steps: 1. Initial blocked connections: 20179/31326
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 20106/31326
+Improvement: 73, T: 5
+Accept better result.
+Time elapsed: 28 seconds.
+========
+Architecture: 5 Simulation ID: 3
+Max steps: 1. Initial blocked connections: 3596/31326
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 3570/31326
+Improvement: 26, T: 5
+Accept better result.
+Time elapsed: 39 seconds.
+========

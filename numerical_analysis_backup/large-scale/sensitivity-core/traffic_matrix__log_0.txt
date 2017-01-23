@@ -1,0 +1,1071 @@
+Architecture: 2 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 21404/30188
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 21377/30188
+Improvement: 27, T: 5
+Accept better result.
+Time elapsed: 26 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 21374/30188
+Improvement: 3, T: 4.9995
+Accept better result.
+Time elapsed: 37 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 21384/30188
+Improvement: -10, T: 4.999
+rnd=0.0299726 prob.=0.119161
+Accept worse result.
+Time elapsed: 48 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 21356/30188
+Improvement: 28, T: 4.9985
+Accept better result.
+Time elapsed: 59 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 21362/30188
+Improvement: -6, T: 4.998
+rnd=0.872704 prob.=0.23139
+Reject worse result.
+Time elapsed: 70 seconds.
+========
+Architecture: 4 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 22604/30188
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 22602/30188
+Improvement: 2, T: 5
+Accept better result.
+Time elapsed: 90 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 22575/30188
+Improvement: 27, T: 4.9995
+Accept better result.
+Time elapsed: 101 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 22574/30188
+Improvement: 1, T: 4.999
+Accept better result.
+Time elapsed: 112 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 22564/30188
+Improvement: 10, T: 4.9985
+Accept better result.
+Time elapsed: 123 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 22564/30188
+Improvement: 0, T: 4.998
+rnd=0.564534 prob.=0.5
+Reject worse result.
+Time elapsed: 134 seconds.
+========
+Architecture: 5 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 21404/30188
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 21367/30188
+Improvement: 37, T: 5
+Accept better result.
+Time elapsed: 153 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 21346/30188
+Improvement: 21, T: 4.9995
+Accept better result.
+Time elapsed: 164 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 21349/30188
+Improvement: -3, T: 4.999
+rnd=0.607042 prob.=0.354316
+Reject worse result.
+Time elapsed: 175 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 21362/30188
+Improvement: -16, T: 4.9985
+rnd=0.624621 prob.=0.0391296
+Reject worse result.
+Time elapsed: 186 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 21344/30188
+Improvement: 2, T: 4.998
+Accept better result.
+Time elapsed: 197 seconds.
+========
+Architecture: 2 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 20729/29502
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 20723/29502
+Improvement: 6, T: 5
+Accept better result.
+Time elapsed: 25 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 20714/29502
+Improvement: 9, T: 4.9995
+Accept better result.
+Time elapsed: 35 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 20714/29502
+Improvement: 0, T: 4.999
+rnd=0.243935 prob.=0.5
+Accept worse result.
+Time elapsed: 46 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 20712/29502
+Improvement: 2, T: 4.9985
+Accept better result.
+Time elapsed: 56 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 20721/29502
+Improvement: -9, T: 4.998
+rnd=0.0795459 prob.=0.141763
+Accept worse result.
+Time elapsed: 67 seconds.
+========
+Architecture: 4 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 21939/29502
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 21941/29502
+Improvement: -2, T: 5
+rnd=0.940747 prob.=0.401312
+Reject worse result.
+Time elapsed: 85 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 21928/29502
+Improvement: 11, T: 4.9995
+Accept better result.
+Time elapsed: 95 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 21927/29502
+Improvement: 1, T: 4.999
+Accept better result.
+Time elapsed: 106 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 21919/29502
+Improvement: 8, T: 4.9985
+Accept better result.
+Time elapsed: 116 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 21918/29502
+Improvement: 1, T: 4.998
+Accept better result.
+Time elapsed: 126 seconds.
+========
+Architecture: 5 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 20729/29502
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 20725/29502
+Improvement: 4, T: 5
+Accept better result.
+Time elapsed: 145 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 20734/29502
+Improvement: -9, T: 4.9995
+rnd=0.405065 prob.=0.141829
+Reject worse result.
+Time elapsed: 155 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 20692/29502
+Improvement: 33, T: 4.999
+Accept better result.
+Time elapsed: 166 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 20713/29502
+Improvement: -21, T: 4.9985
+rnd=0.909391 prob.=0.0147557
+Reject worse result.
+Time elapsed: 176 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 20713/29502
+Improvement: -21, T: 4.998
+rnd=0.799086 prob.=0.0147496
+Reject worse result.
+Time elapsed: 187 seconds.
+========
+Architecture: 2 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 22094/30964
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 22055/30964
+Improvement: 39, T: 5
+Accept better result.
+Time elapsed: 27 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 22053/30964
+Improvement: 2, T: 4.9995
+Accept better result.
+Time elapsed: 38 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 22043/30964
+Improvement: 10, T: 4.999
+Accept better result.
+Time elapsed: 50 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 22051/30964
+Improvement: -8, T: 4.9985
+rnd=0.233235 prob.=0.167914
+Reject worse result.
+Time elapsed: 62 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 22024/30964
+Improvement: 19, T: 4.998
+Accept better result.
+Time elapsed: 74 seconds.
+========
+Architecture: 4 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 23314/30964
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 23241/30964
+Improvement: 73, T: 5
+Accept better result.
+Time elapsed: 94 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 23241/30964
+Improvement: 0, T: 4.9995
+rnd=0.236165 prob.=0.5
+Accept worse result.
+Time elapsed: 106 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 23241/30964
+Improvement: 0, T: 4.999
+rnd=0.203295 prob.=0.5
+Accept worse result.
+Time elapsed: 118 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 23241/30964
+Improvement: 0, T: 4.9985
+rnd=0.678629 prob.=0.5
+Reject worse result.
+Time elapsed: 130 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 23238/30964
+Improvement: 3, T: 4.998
+Accept better result.
+Time elapsed: 141 seconds.
+========
+Architecture: 5 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 22094/30964
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 22042/30964
+Improvement: 52, T: 5
+Accept better result.
+Time elapsed: 162 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 22033/30964
+Improvement: 9, T: 4.9995
+Accept better result.
+Time elapsed: 174 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 22050/30964
+Improvement: -17, T: 4.999
+rnd=0.300102 prob.=0.0322742
+Reject worse result.
+Time elapsed: 185 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 22048/30964
+Improvement: -15, T: 4.9985
+rnd=0.555584 prob.=0.0473852
+Reject worse result.
+Time elapsed: 197 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 22040/30964
+Improvement: -7, T: 4.998
+rnd=0.177117 prob.=0.197727
+Accept worse result.
+Time elapsed: 209 seconds.
+========
+Architecture: 2 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 22363/31288
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 22345/31288
+Improvement: 18, T: 5
+Accept better result.
+Time elapsed: 28 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 22344/31288
+Improvement: 1, T: 4.9995
+Accept better result.
+Time elapsed: 40 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 22357/31288
+Improvement: -13, T: 4.999
+rnd=0.111158 prob.=0.0691049
+Reject worse result.
+Time elapsed: 51 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 22339/31288
+Improvement: 5, T: 4.9985
+Accept better result.
+Time elapsed: 63 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 22338/31288
+Improvement: 1, T: 4.998
+Accept better result.
+Time elapsed: 75 seconds.
+========
+Architecture: 4 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 23609/31288
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 23570/31288
+Improvement: 39, T: 5
+Accept better result.
+Time elapsed: 96 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 23570/31288
+Improvement: 0, T: 4.9995
+rnd=0.277537 prob.=0.5
+Accept worse result.
+Time elapsed: 108 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 23563/31288
+Improvement: 7, T: 4.999
+Accept better result.
+Time elapsed: 120 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 23555/31288
+Improvement: 8, T: 4.9985
+Accept better result.
+Time elapsed: 132 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 23539/31288
+Improvement: 16, T: 4.998
+Accept better result.
+Time elapsed: 144 seconds.
+========
+Architecture: 5 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 22363/31288
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 22329/31288
+Improvement: 34, T: 5
+Accept better result.
+Time elapsed: 164 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 22340/31288
+Improvement: -11, T: 4.9995
+rnd=0.316915 prob.=0.0997307
+Reject worse result.
+Time elapsed: 176 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 22330/31288
+Improvement: -1, T: 4.999
+rnd=0.402204 prob.=0.450156
+Accept worse result.
+Time elapsed: 188 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 22341/31288
+Improvement: -11, T: 4.9985
+rnd=0.163254 prob.=0.0996912
+Reject worse result.
+Time elapsed: 200 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 22340/31288
+Improvement: -10, T: 4.998
+rnd=0.426183 prob.=0.119119
+Reject worse result.
+Time elapsed: 212 seconds.
+========
+Architecture: 2 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 20122/28822
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 20137/28822
+Improvement: -15, T: 5
+rnd=0.636454 prob.=0.0474259
+Reject worse result.
+Time elapsed: 24 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 20124/28822
+Improvement: -2, T: 4.9995
+rnd=0.739551 prob.=0.401303
+Reject worse result.
+Time elapsed: 34 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 20120/28822
+Improvement: 2, T: 4.999
+Accept better result.
+Time elapsed: 44 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 20148/28822
+Improvement: -28, T: 4.9985
+rnd=0.0273761 prob.=0.00367807
+Reject worse result.
+Time elapsed: 54 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 20147/28822
+Improvement: -27, T: 4.998
+rnd=0.345954 prob.=0.00448661
+Reject worse result.
+Time elapsed: 65 seconds.
+========
+Architecture: 4 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 21280/28822
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 21272/28822
+Improvement: 8, T: 5
+Accept better result.
+Time elapsed: 82 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 21258/28822
+Improvement: 14, T: 4.9995
+Accept better result.
+Time elapsed: 92 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 21258/28822
+Improvement: 0, T: 4.999
+rnd=0.921927 prob.=0.5
+Reject worse result.
+Time elapsed: 103 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 21258/28822
+Improvement: 0, T: 4.9985
+rnd=0.739033 prob.=0.5
+Reject worse result.
+Time elapsed: 113 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 21258/28822
+Improvement: 0, T: 4.998
+rnd=0.0700031 prob.=0.5
+Accept worse result.
+Time elapsed: 123 seconds.
+========
+Architecture: 5 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 20122/28822
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 20137/28822
+Improvement: -15, T: 5
+rnd=0.980679 prob.=0.0474259
+Reject worse result.
+Time elapsed: 141 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 20130/28822
+Improvement: -8, T: 4.9995
+rnd=0.294773 prob.=0.167959
+Reject worse result.
+Time elapsed: 151 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 20135/28822
+Improvement: -13, T: 4.999
+rnd=0.613498 prob.=0.0691049
+Reject worse result.
+Time elapsed: 161 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 20137/28822
+Improvement: -15, T: 4.9985
+rnd=0.0420136 prob.=0.0473852
+Accept worse result.
+Time elapsed: 171 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 20144/28822
+Improvement: -7, T: 4.998
+rnd=0.811862 prob.=0.197727
+Reject worse result.
+Time elapsed: 181 seconds.
+========
+Architecture: 2 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 22930/32039
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 22905/32039
+Improvement: 25, T: 5
+Accept better result.
+Time elapsed: 29 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 22904/32039
+Improvement: 1, T: 4.9995
+Accept better result.
+Time elapsed: 41 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 22903/32039
+Improvement: 1, T: 4.999
+Accept better result.
+Time elapsed: 54 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 22893/32039
+Improvement: 10, T: 4.9985
+Accept better result.
+Time elapsed: 66 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 22902/32039
+Improvement: -9, T: 4.998
+rnd=0.298184 prob.=0.141763
+Reject worse result.
+Time elapsed: 78 seconds.
+========
+Architecture: 4 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 24171/32039
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 24171/32039
+Improvement: 0, T: 5
+rnd=0.654483 prob.=0.5
+Reject worse result.
+Time elapsed: 100 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 24163/32039
+Improvement: 8, T: 4.9995
+Accept better result.
+Time elapsed: 112 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 24162/32039
+Improvement: 1, T: 4.999
+Accept better result.
+Time elapsed: 124 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 24162/32039
+Improvement: 0, T: 4.9985
+rnd=0.606845 prob.=0.5
+Reject worse result.
+Time elapsed: 137 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 24162/32039
+Improvement: 0, T: 4.998
+rnd=0.409452 prob.=0.5
+Accept worse result.
+Time elapsed: 149 seconds.
+========
+Architecture: 5 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 22930/32039
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 22907/32039
+Improvement: 23, T: 5
+Accept better result.
+Time elapsed: 170 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 22924/32039
+Improvement: -17, T: 4.9995
+rnd=0.728945 prob.=0.0322848
+Reject worse result.
+Time elapsed: 183 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 22910/32039
+Improvement: -3, T: 4.999
+rnd=0.609573 prob.=0.354316
+Reject worse result.
+Time elapsed: 195 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 22904/32039
+Improvement: 3, T: 4.9985
+Accept better result.
+Time elapsed: 208 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 22917/32039
+Improvement: -13, T: 4.998
+rnd=0.101093 prob.=0.0690715
+Reject worse result.
+Time elapsed: 220 seconds.
+========
+Architecture: 2 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 22281/31280
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 22254/31280
+Improvement: 27, T: 5
+Accept better result.
+Time elapsed: 27 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 22247/31280
+Improvement: 7, T: 4.9995
+Accept better result.
+Time elapsed: 38 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 22251/31280
+Improvement: -4, T: 4.999
+rnd=0.674219 prob.=0.309991
+Reject worse result.
+Time elapsed: 50 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 22234/31280
+Improvement: 13, T: 4.9985
+Accept better result.
+Time elapsed: 62 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 22240/31280
+Improvement: -6, T: 4.998
+rnd=0.690902 prob.=0.23139
+Reject worse result.
+Time elapsed: 73 seconds.
+========
+Architecture: 4 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 23481/31280
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 23478/31280
+Improvement: 3, T: 5
+Accept better result.
+Time elapsed: 93 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 23473/31280
+Improvement: 5, T: 4.9995
+Accept better result.
+Time elapsed: 105 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 23471/31280
+Improvement: 2, T: 4.999
+Accept better result.
+Time elapsed: 116 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 23471/31280
+Improvement: 0, T: 4.9985
+rnd=0.565616 prob.=0.5
+Reject worse result.
+Time elapsed: 128 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 23467/31280
+Improvement: 4, T: 4.998
+Accept better result.
+Time elapsed: 140 seconds.
+========
+Architecture: 5 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 22281/31280
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 22236/31280
+Improvement: 45, T: 5
+Accept better result.
+Time elapsed: 160 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 22258/31280
+Improvement: -22, T: 4.9995
+rnd=0.192908 prob.=0.0121232
+Reject worse result.
+Time elapsed: 172 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 22254/31280
+Improvement: -18, T: 4.999
+rnd=0.84447 prob.=0.0265783
+Reject worse result.
+Time elapsed: 183 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 22246/31280
+Improvement: -10, T: 4.9985
+rnd=0.336777 prob.=0.11914
+Reject worse result.
+Time elapsed: 195 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 22271/31280
+Improvement: -35, T: 4.998
+rnd=0.431438 prob.=0.000908505
+Reject worse result.
+Time elapsed: 206 seconds.
+========
+Architecture: 2 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 21952/30939
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 21904/30939
+Improvement: 48, T: 5
+Accept better result.
+Time elapsed: 26 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 21912/30939
+Improvement: -8, T: 4.9995
+rnd=0.483679 prob.=0.167959
+Reject worse result.
+Time elapsed: 38 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 21918/30939
+Improvement: -14, T: 4.999
+rnd=0.600612 prob.=0.0572939
+Reject worse result.
+Time elapsed: 50 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 21926/30939
+Improvement: -22, T: 4.9985
+rnd=0.236464 prob.=0.0121126
+Reject worse result.
+Time elapsed: 61 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 21897/30939
+Improvement: 7, T: 4.998
+Accept better result.
+Time elapsed: 73 seconds.
+========
+Architecture: 4 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 23191/30939
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 23142/30939
+Improvement: 49, T: 5
+Accept better result.
+Time elapsed: 93 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 23136/30939
+Improvement: 6, T: 4.9995
+Accept better result.
+Time elapsed: 105 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 23136/30939
+Improvement: 0, T: 4.999
+rnd=0.031124 prob.=0.5
+Accept worse result.
+Time elapsed: 117 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 23128/30939
+Improvement: 8, T: 4.9985
+Accept better result.
+Time elapsed: 128 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 23121/30939
+Improvement: 7, T: 4.998
+Accept better result.
+Time elapsed: 140 seconds.
+========
+Architecture: 5 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 21952/30939
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 21922/30939
+Improvement: 30, T: 5
+Accept better result.
+Time elapsed: 160 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 21941/30939
+Improvement: -19, T: 4.9995
+rnd=0.538944 prob.=0.0218731
+Reject worse result.
+Time elapsed: 172 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 21907/30939
+Improvement: 15, T: 4.999
+Accept better result.
+Time elapsed: 183 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 21920/30939
+Improvement: -13, T: 4.9985
+rnd=0.191874 prob.=0.0690882
+Reject worse result.
+Time elapsed: 195 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 21924/30939
+Improvement: -17, T: 4.998
+rnd=0.919774 prob.=0.032253
+Reject worse result.
+Time elapsed: 207 seconds.
+========
+Architecture: 2 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 22403/31411
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 22355/31411
+Improvement: 48, T: 5
+Accept better result.
+Time elapsed: 27 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 22348/31411
+Improvement: 7, T: 4.9995
+Accept better result.
+Time elapsed: 39 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 22345/31411
+Improvement: 3, T: 4.999
+Accept better result.
+Time elapsed: 51 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 22356/31411
+Improvement: -11, T: 4.9985
+rnd=0.532089 prob.=0.0996912
+Reject worse result.
+Time elapsed: 62 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 22355/31411
+Improvement: -10, T: 4.998
+rnd=0.266409 prob.=0.119119
+Reject worse result.
+Time elapsed: 74 seconds.
+========
+Architecture: 4 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 23633/31411
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 23615/31411
+Improvement: 18, T: 5
+Accept better result.
+Time elapsed: 95 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 23603/31411
+Improvement: 12, T: 4.9995
+Accept better result.
+Time elapsed: 107 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 23591/31411
+Improvement: 12, T: 4.999
+Accept better result.
+Time elapsed: 118 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 23591/31411
+Improvement: 0, T: 4.9985
+rnd=0.26101 prob.=0.5
+Accept worse result.
+Time elapsed: 130 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 23590/31411
+Improvement: 1, T: 4.998
+Accept better result.
+Time elapsed: 142 seconds.
+========
+Architecture: 5 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 22403/31411
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 22358/31411
+Improvement: 45, T: 5
+Accept better result.
+Time elapsed: 163 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 22363/31411
+Improvement: -5, T: 4.9995
+rnd=0.538225 prob.=0.268922
+Reject worse result.
+Time elapsed: 174 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 22370/31411
+Improvement: -12, T: 4.999
+rnd=0.352529 prob.=0.0831361
+Reject worse result.
+Time elapsed: 186 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 22388/31411
+Improvement: -30, T: 4.9985
+rnd=0.959672 prob.=0.00246818
+Reject worse result.
+Time elapsed: 198 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 22357/31411
+Improvement: 1, T: 4.998
+Accept better result.
+Time elapsed: 210 seconds.
+========
+Architecture: 2 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 21032/29835
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 21012/29835
+Improvement: 20, T: 5
+Accept better result.
+Time elapsed: 24 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 20995/29835
+Improvement: 17, T: 4.9995
+Accept better result.
+Time elapsed: 35 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 20987/29835
+Improvement: 8, T: 4.999
+Accept better result.
+Time elapsed: 45 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 20984/29835
+Improvement: 3, T: 4.9985
+Accept better result.
+Time elapsed: 56 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 20998/29835
+Improvement: -14, T: 4.998
+rnd=0.725922 prob.=0.0572637
+Reject worse result.
+Time elapsed: 67 seconds.
+========
+Architecture: 4 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 22236/29835
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 22236/29835
+Improvement: 0, T: 5
+rnd=0.10989 prob.=0.5
+Accept worse result.
+Time elapsed: 85 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 22225/29835
+Improvement: 11, T: 4.9995
+Accept better result.
+Time elapsed: 95 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 22225/29835
+Improvement: 0, T: 4.999
+rnd=0.975924 prob.=0.5
+Reject worse result.
+Time elapsed: 105 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 22214/29835
+Improvement: 11, T: 4.9985
+Accept better result.
+Time elapsed: 116 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 22214/29835
+Improvement: 0, T: 4.998
+rnd=0.815077 prob.=0.5
+Reject worse result.
+Time elapsed: 126 seconds.
+========
+Architecture: 5 Simulation ID: 0
+Max steps: 5. Initial blocked connections: 21032/29835
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 20999/29835
+Improvement: 33, T: 5
+Accept better result.
+Time elapsed: 145 seconds.
+========
+Iteration 1, #trials: 1, step size:238
+Blocked connections: 21013/29835
+Improvement: -14, T: 4.9995
+rnd=0.360346 prob.=0.057309
+Reject worse result.
+Time elapsed: 155 seconds.
+========
+Iteration 2, #trials: 1, step size:226
+Blocked connections: 21014/29835
+Improvement: -15, T: 4.999
+rnd=0.590615 prob.=0.0473988
+Reject worse result.
+Time elapsed: 166 seconds.
+========
+Iteration 3, #trials: 1, step size:215
+Blocked connections: 21008/29835
+Improvement: -9, T: 4.9985
+rnd=0.36553 prob.=0.141785
+Reject worse result.
+Time elapsed: 176 seconds.
+========
+Iteration 4, #trials: 1, step size:204
+Blocked connections: 21029/29835
+Improvement: -30, T: 4.998
+rnd=0.505763 prob.=0.00246671
+Reject worse result.
+Time elapsed: 187 seconds.
+========
+Architecture: 2 Simulation ID: 0
+Max steps: 1. Initial blocked connections: 22678/31751
+========
+Iteration 0, #trials: 1, step size:250
+Blocked connections: 22717/31751
+Improvement: -39, T: 5
+rnd=0.673232 prob.=0.000409567
+Reject worse result.
+Time elapsed: 58 seconds.
+========

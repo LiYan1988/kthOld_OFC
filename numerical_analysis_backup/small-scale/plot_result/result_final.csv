@@ -1,0 +1,4 @@
+#POD,arch1_optima,Arch2_bench1,Arch2_bench2,Arch2_sa,arch2_optima,Arch4_bench1,Arch4_bench2,Arch4_sa,arch4_optima,Arch5_bench1,Arch5_bench2,Arch5_sa,arch5_optima,total_cnk
+100,150,617.75,969,1218.05,1193.65,347.45,418.2,784.4,912.05,618.7,969.55,1220.85,1287,1926.1
+150,225,916.3,1534.5,2210,2350,489.65,615.9,1435.35,1540.35,916.95,1534.65,2343.8,2492.15,4437.05
+200,,,,,,,,,,,,,,

@@ -1,0 +1,262 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>compare_benchmark_vs_optimization</title><meta name="generator" content="MATLAB 8.6"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2016-08-13"><meta name="DC.source" content="compare_benchmark_vs_optimization.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#2">Import data</a></li><li><a href="#3">Compare FF forward with optimization on connections</a></li></ul></div><pre class="codeinput"><span class="comment">% POD 100, arch2, compare optimization gap between FF forward, FF backward,</span>
+<span class="comment">% Ajmal, and optimizations</span>
+
+clc;
+clear;
+close <span class="string">all</span>;
+</pre><h2>Import data<a name="2"></a></h2><p>import benchmark data</p><pre class="codeinput">fileName1 = <span class="string">'pod100_benchmark.csv'</span>;
+[Arch2_FF_fwd_cnk,Arch2_FF_fwd_thp,<span class="keyword">...</span>
+ Arch2_FF_bkw_cnk,Arch2_FF_bkw_thp,<span class="keyword">...</span>
+ Arch2_AJ_fwd_cnk,Arch2_AJ_bkw_thp,<span class="keyword">...</span>
+ Arch2_AJ_bwd_cnk,Arch2_AJ_bkw_thp1,<span class="keyword">...</span>
+ Arch4_FF_fwd_cnk,Arch4_FF_fwd_thp,<span class="keyword">...</span>
+ Arch4_FF_bkw_cnk,Arch4_FF_bkw_thp,<span class="keyword">...</span>
+ Arch4_AJ_fwd_cnk,Arch4_AJ_bkw_thp,<span class="keyword">...</span>
+ Arch4_AJ_bwd_cnk,Arch4_AJ_bkw_thp1,<span class="keyword">...</span>
+ Arch5_FF_fwd_cnk,Arch5_FF_fwd_thp,<span class="keyword">...</span>
+ Arch5_FF_bkw_cnk,Arch5_FF_bkw_thp,<span class="keyword">...</span>
+ Arch5_AJ_fwd_cnk,Arch5_AJ_bkw_thp,<span class="keyword">...</span>
+ Arch5_AJ_bwd_cnk,Arch5_AJ_bkw_thp1] = <span class="keyword">...</span>
+ importfile_benchmark_vectors(fileName1);
+
+
+<span class="comment">% import MILP data</span>
+<span class="comment">% connections</span>
+fileName1 = <span class="string">'pod100_connections.csv'</span>;
+[id,arch4_cnkopt_lb_cnk,arch4_cnkopt_ub_cnk,<span class="keyword">...</span>
+    arch4_cnkopt_lb_thp,arch4_cnkopt_ub_thp,<span class="keyword">...</span>
+    arch1_cnkopt_cnk,arch1_cnkopt_thp,<span class="keyword">...</span>
+    arch2_cnkopt_lb_cnk,arch2_cnkopt_ub_cnk,<span class="keyword">...</span>
+    arch2_cnkopt_lb_thp,arch2_cnkopt_ub_thp,<span class="keyword">...</span>
+    arch5_cnkopt_lb_cnk,arch5_cnkopt_ub_cnk,<span class="keyword">...</span>
+    arch5_cnkopt_lb_thp,arch5_cnkopt_ub_thp,total_cnk] = <span class="keyword">...</span>
+    importfile_optimizations_vectors(fileName1);
+
+<span class="comment">% throughput</span>
+fileName1 = <span class="string">'pod100_throughput.csv'</span>;
+[id,arch4_thpopt_lb_cnk,arch4_thpopt_ub_cnk,<span class="keyword">...</span>
+    arch4_thpopt_lb_thp,arch4_thpopt_ub_thp,<span class="keyword">...</span>
+    arch1_thpopt_cnk,arch1_thpopt_thp,<span class="keyword">...</span>
+    arch2_thpopt_lb_cnk,arch2_thpopt_ub_cnk,<span class="keyword">...</span>
+    arch2_thpopt_lb_thp,arch2_thpopt_ub_thp,<span class="keyword">...</span>
+    arch5_thpopt_lb_cnk,arch5_thpopt_ub_cnk,<span class="keyword">...</span>
+    arch5_thpopt_lb_thp,arch5_thpopt_ub_thp,total_cnk] = <span class="keyword">...</span>
+    importfile_optimizations_vectors(fileName1);
+
+<span class="comment">% hybrid</span>
+fileName1 = <span class="string">'pod100_hybrid.csv'</span>;
+[id,arch4_hybopt_lb_cnk,arch4_hybopt_ub_cnk,<span class="keyword">...</span>
+    arch4_hybopt_lb_thp,arch4_hybopt_ub_thp,<span class="keyword">...</span>
+    arch1_hybopt_cnk,arch1_hybopt_thp,<span class="keyword">...</span>
+    arch2_hybopt_lb_cnk,arch2_hybopt_ub_cnk,<span class="keyword">...</span>
+    arch2_hybopt_lb_thp,arch2_hybopt_ub_thp,<span class="keyword">...</span>
+    arch5_hybopt_lb_cnk,arch5_hybopt_ub_cnk,<span class="keyword">...</span>
+    arch5_hybopt_lb_thp,arch5_hybopt_ub_thp,total_cnk] = <span class="keyword">...</span>
+    importfile_optimizations_vectors(fileName1);
+
+<span class="comment">% SAfileName1 = 'pod100_arch2_sa.csv';</span>
+pod100Sa = importfile_sa(fileName1);
+[hybridCNK,hybridTRP,<span class="keyword">...</span>
+    connectionsCNK,connectionsTRP,<span class="keyword">...</span>
+    throughputCNK,throughputTRP] = importfile_sa_vectors(fileName1);
+</pre><h2>Compare FF forward with optimization on connections<a name="3"></a></h2><p>arch 2</p><pre class="codeinput">arch2_FF_fwd_cnkgap_lb = Arch2_FF_fwd_cnk./arch2_cnkopt_lb_cnk;
+arch2_FF_fwd_cnkgap_ub = Arch2_FF_fwd_cnk./arch2_cnkopt_ub_cnk;
+<span class="comment">% mean(arch2_FF_fwd_cnkgap_lb) % 95.09%</span>
+<span class="comment">% mean(arch2_FF_fwd_cnkgap_ub) % 88.18%</span>
+
+<span class="comment">% arch 4</span>
+arch4_FF_fwd_cnkgap_lb = Arch4_FF_fwd_cnk./arch4_cnkopt_lb_cnk;
+arch4_FF_fwd_cnkgap_ub = Arch4_FF_fwd_cnk./arch4_cnkopt_ub_cnk;
+<span class="comment">% mean(arch4_FF_fwd_cnkgap_lb) % 97.12%</span>
+<span class="comment">% mean(arch4_FF_fwd_cnkgap_ub) % 87.07%</span>
+
+<span class="comment">% arch 5</span>
+<span class="comment">% arch5_FF_fwd_cnkgap_lb = Arch5_FF_fwd_cnk./arch5_cnkopt_lb_cnk;</span>
+arch5_FF_fwd_cnkgap_ub = Arch5_FF_fwd_cnk./arch5_cnkopt_ub_cnk;
+<span class="comment">% mean(arch5_FF_fwd_cnkgap_lb) % 178.41%</span>
+<span class="comment">% mean(arch5_FF_fwd_cnkgap_ub) % 89.17%</span>
+
+<span class="comment">% Optimal gap:</span>
+<span class="comment">% arch2: 88.18%; arch4: 87.97%; arch5 89.17%</span>
+
+<span class="comment">% mean(arch5_cnkopt_ub_cnk./arch2_cnkopt_ub_cnk) % 100%</span>
+<span class="comment">% mean(arch5_cnkopt_ub_cnk./arch2_cnkopt_lb_cnk) % 107%</span>
+
+<span class="comment">% Conclusion:</span>
+<span class="comment">% 1. The optimal gap of FF forward on connections is around 12%</span>
+<span class="comment">% 2. The difference between arch2 and 5 is within 7%, upper bound is 0%</span>
+<span class="comment">% TO-DO:</span>
+<span class="comment">% 1. Reduce problem size so that arch2 can be solved optimally, then</span>
+<span class="comment">% compare with arch5</span>
+
+<span class="comment">% compare FF backward with optimization on</span>
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2015b</a><br></p></div><!--
+##### SOURCE BEGIN #####
+% POD 100, arch2, compare optimization gap between FF forward, FF backward,
+% Ajmal, and optimizations
+
+clc;
+clear;
+close all;
+
+%% Import data
+% import benchmark data
+fileName1 = 'pod100_benchmark.csv';
+[Arch2_FF_fwd_cnk,Arch2_FF_fwd_thp,...
+ Arch2_FF_bkw_cnk,Arch2_FF_bkw_thp,...
+ Arch2_AJ_fwd_cnk,Arch2_AJ_bkw_thp,...
+ Arch2_AJ_bwd_cnk,Arch2_AJ_bkw_thp1,...
+ Arch4_FF_fwd_cnk,Arch4_FF_fwd_thp,...
+ Arch4_FF_bkw_cnk,Arch4_FF_bkw_thp,...
+ Arch4_AJ_fwd_cnk,Arch4_AJ_bkw_thp,...
+ Arch4_AJ_bwd_cnk,Arch4_AJ_bkw_thp1,...
+ Arch5_FF_fwd_cnk,Arch5_FF_fwd_thp,...
+ Arch5_FF_bkw_cnk,Arch5_FF_bkw_thp,...
+ Arch5_AJ_fwd_cnk,Arch5_AJ_bkw_thp,...
+ Arch5_AJ_bwd_cnk,Arch5_AJ_bkw_thp1] = ...
+ importfile_benchmark_vectors(fileName1);
+
+
+% import MILP data
+% connections
+fileName1 = 'pod100_connections.csv';
+[id,arch4_cnkopt_lb_cnk,arch4_cnkopt_ub_cnk,...
+    arch4_cnkopt_lb_thp,arch4_cnkopt_ub_thp,...
+    arch1_cnkopt_cnk,arch1_cnkopt_thp,...
+    arch2_cnkopt_lb_cnk,arch2_cnkopt_ub_cnk,...
+    arch2_cnkopt_lb_thp,arch2_cnkopt_ub_thp,...
+    arch5_cnkopt_lb_cnk,arch5_cnkopt_ub_cnk,...
+    arch5_cnkopt_lb_thp,arch5_cnkopt_ub_thp,total_cnk] = ...
+    importfile_optimizations_vectors(fileName1);
+
+% throughput
+fileName1 = 'pod100_throughput.csv';
+[id,arch4_thpopt_lb_cnk,arch4_thpopt_ub_cnk,...
+    arch4_thpopt_lb_thp,arch4_thpopt_ub_thp,...
+    arch1_thpopt_cnk,arch1_thpopt_thp,...
+    arch2_thpopt_lb_cnk,arch2_thpopt_ub_cnk,...
+    arch2_thpopt_lb_thp,arch2_thpopt_ub_thp,...
+    arch5_thpopt_lb_cnk,arch5_thpopt_ub_cnk,...
+    arch5_thpopt_lb_thp,arch5_thpopt_ub_thp,total_cnk] = ...
+    importfile_optimizations_vectors(fileName1);
+
+% hybrid
+fileName1 = 'pod100_hybrid.csv';
+[id,arch4_hybopt_lb_cnk,arch4_hybopt_ub_cnk,...
+    arch4_hybopt_lb_thp,arch4_hybopt_ub_thp,...
+    arch1_hybopt_cnk,arch1_hybopt_thp,...
+    arch2_hybopt_lb_cnk,arch2_hybopt_ub_cnk,...
+    arch2_hybopt_lb_thp,arch2_hybopt_ub_thp,...
+    arch5_hybopt_lb_cnk,arch5_hybopt_ub_cnk,...
+    arch5_hybopt_lb_thp,arch5_hybopt_ub_thp,total_cnk] = ...
+    importfile_optimizations_vectors(fileName1);
+
+% SAfileName1 = 'pod100_arch2_sa.csv';
+pod100Sa = importfile_sa(fileName1);
+[hybridCNK,hybridTRP,...
+    connectionsCNK,connectionsTRP,...
+    throughputCNK,throughputTRP] = importfile_sa_vectors(fileName1);
+
+%% Compare FF forward with optimization on connections 
+% arch 2
+arch2_FF_fwd_cnkgap_lb = Arch2_FF_fwd_cnk./arch2_cnkopt_lb_cnk;
+arch2_FF_fwd_cnkgap_ub = Arch2_FF_fwd_cnk./arch2_cnkopt_ub_cnk;
+% mean(arch2_FF_fwd_cnkgap_lb) % 95.09%
+% mean(arch2_FF_fwd_cnkgap_ub) % 88.18%
+
+% arch 4
+arch4_FF_fwd_cnkgap_lb = Arch4_FF_fwd_cnk./arch4_cnkopt_lb_cnk;
+arch4_FF_fwd_cnkgap_ub = Arch4_FF_fwd_cnk./arch4_cnkopt_ub_cnk;
+% mean(arch4_FF_fwd_cnkgap_lb) % 97.12%
+% mean(arch4_FF_fwd_cnkgap_ub) % 87.07%
+
+% arch 5
+% arch5_FF_fwd_cnkgap_lb = Arch5_FF_fwd_cnk./arch5_cnkopt_lb_cnk;
+arch5_FF_fwd_cnkgap_ub = Arch5_FF_fwd_cnk./arch5_cnkopt_ub_cnk;
+% mean(arch5_FF_fwd_cnkgap_lb) % 178.41%
+% mean(arch5_FF_fwd_cnkgap_ub) % 89.17%
+
+% Optimal gap:
+% arch2: 88.18%; arch4: 87.97%; arch5 89.17%
+
+% mean(arch5_cnkopt_ub_cnk./arch2_cnkopt_ub_cnk) % 100%
+% mean(arch5_cnkopt_ub_cnk./arch2_cnkopt_lb_cnk) % 107%
+
+% Conclusion: 
+% 1. The optimal gap of FF forward on connections is around 12%
+% 2. The difference between arch2 and 5 is within 7%, upper bound is 0%
+% TO-DO:
+% 1. Reduce problem size so that arch2 can be solved optimally, then
+% compare with arch5
+
+% compare FF backward with optimization on 
+##### SOURCE END #####
+--></body></html>

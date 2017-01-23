@@ -1,0 +1,15 @@
+1. pod=200, tfk_mean=200, tfk_var=100, load = 0.2, num_cores=3, num_specs=160, n_blk=3792/8340
+
+2. pod=150, tfk_mean=200, tfk_var=100, load = 0.2, num_cores=3, num_specs=160, n_blk=1500/4427
+
+3. pod=100, tfk_mean=200, tfk_var=100, load = 0.2, num_cores=3, num_specs=160, n_blk=300/1812
+
+4. pod=50, tfk_mean=200, tfk_var=100, load = 0.2, num_cores=3, num_specs=160, n_blk=0/408
+
+5. pod=75, tfk_mean=200, tfk_var=100, load = 0.2, num_cores=3, num_specs=160, n_blk=87/1082
+
+6. pod=125, tfk_mean=200, tfk_var=100, load = 0.2, num_cores=3, num_specs=160, n_blk=951/3223
+
+7. pod=175, tfk_mean=200, tfk_var=100, load = 0.2, num_cores=3, num_specs=160, n_blk=2641/6356
+
+8. pod=225, tfk_mean=200, tfk_var=100, load = 0.2, num_cores=3, num_specs=160, n_blk=4474/9400

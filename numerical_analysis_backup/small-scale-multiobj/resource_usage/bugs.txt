@@ -1,0 +1,12 @@
+arch2_decomposition_new.py
+1. check the numeric types of traffic_capacities, tm, change them all to float.
+	Use int only when it is index
+2. traffic_capacities is wrong for self.tm < self.slot_capacity, guardband is 
+	not included
+3. efficiency is also wrong, since traffic_capacities is wrong, but closer to
+	the correct answer
+4. tensor is wrong since the number of occupied slots does not match the that 
+	given by the connection list
+
+arch5_decomposition_new.py
+1. either the MILP or the tensor is wrong

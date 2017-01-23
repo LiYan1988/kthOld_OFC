@@ -1,0 +1,3 @@
+beta,connection_ub,throughput_ub,obj_ub,connection_lb,throughput_lb,obj_lb,connection_he,throughput_he,obj_he
+6.0,29208.0,4399314.0,29208.0,0.0,0.0,0.0,0.0,0.0,0.0
+8.0,31242.0,5080813.0,31242.0,0.0,0.0,0.0,0.0,0.0,0.0

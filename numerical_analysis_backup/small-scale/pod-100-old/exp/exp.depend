@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1464515121 source:/home/li/Dropbox/KTH/heuristics/small-scale/pod-100/main.cpp
+	"arch2.h"
+
+1464515998 /home/li/Dropbox/KTH/heuristics/small-scale/pod-100/arch2.h
+	<random>
+	<iostream>
+	<vector>
+	<algorithm>
+	<iomanip>
+	<fstream>
+	<string>
+	<sstream>
+	<math.h>
+	<ostream>
+	<numeric>
+	<thread>
+	<mutex>
+	<ctime>
+	<set>
+	<map>
+	<tuple>
+

@@ -1,0 +1,2 @@
+arch4_connections_lb,arch4_connections_ub,arch4_throughput_lb,arch4_throughput_ub,arch1_connections,arch1_throughput,arch2_connections_lb,arch2_connections_ub,arch2_throughput_lb,arch2_throughput_ub,arch5_connections_lb,arch5_connections_ub,arch5_throughput_lb,arch5_throughput_ub,total_cnk
+952.0,1055.0,136950.0,166750.0,150.0,50600.0,1194.0,1290.0,213550.0,249750.0,645.0,1290.0,127400.0,249750.0,1878.0

@@ -1,0 +1,84 @@
+
+Gurobi 6.5.2 (linux64) logging started Mon Sep 12 22:53:11 2016
+
+Changed value of parameter MIPGap to 0.1
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Changed value of parameter TimeLimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Method to 2
+   Prev: -1  Min: -1  Max: 4  Default: -1
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Optimize a model with 61580 rows, 91995 columns and 183990 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 4e+00]
+  Objective range [1e+00, 3e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [3e+02, 3e+02]
+Found heuristic solution: objective 0
+Presolve removed 61483 rows and 84692 columns
+Presolve time: 0.19s
+Presolved: 97 rows, 7303 columns, 14167 nonzeros
+Found heuristic solution: objective -37166.62800
+Variable types: 0 continuous, 7303 integer (6088 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.22 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-01)
+Best objective -3.716662800000e+04, best bound -4.083250600000e+04, gap 9.8634%
+
+Gurobi 6.5.2 (linux64) logging started Mon Sep 12 23:08:43 2016
+
+Changed value of parameter MIPGap to 0.1
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Changed value of parameter TimeLimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Method to 2
+   Prev: -1  Min: -1  Max: 4  Default: -1
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Optimize a model with 61580 rows, 91995 columns and 183990 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 4e+00]
+  Objective range [1e+00, 3e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [3e+02, 3e+02]
+Found heuristic solution: objective 0
+Presolve removed 61483 rows and 84692 columns
+Presolve time: 0.21s
+Presolved: 97 rows, 7303 columns, 14167 nonzeros
+Found heuristic solution: objective -37166.62800
+Variable types: 0 continuous, 7303 integer (6088 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.23 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-01)
+Best objective -3.716662800000e+04, best bound -4.083250600000e+04, gap 9.8634%
+Changed value of parameter MIPGap to 0.1
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Changed value of parameter TimeLimit to 7200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Changed value of parameter Method to 2
+   Prev: -1  Min: -1  Max: 4  Default: -1
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Optimize a model with 61580 rows, 91995 columns and 183990 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 4e+00]
+  Objective range [1e+00, 5e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [3e+02, 3e+02]
+Found heuristic solution: objective 0
+Presolve removed 61483 rows and 84692 columns
+Presolve time: 0.23s
+Presolved: 97 rows, 7303 columns, 14167 nonzeros
+Found heuristic solution: objective -46533.27200
+Variable types: 0 continuous, 7303 integer (6088 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.25 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-01)
+Best objective -4.653327200000e+04, best bound -5.100001200001e+04, gap 9.5990%

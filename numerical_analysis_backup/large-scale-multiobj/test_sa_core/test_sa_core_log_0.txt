@@ -1,0 +1,9 @@
+Architecture: 2 Simulation ID: 0
+Max steps: 35. Initial blocked connections: 4288/30188
+========
+Iteration 0, #trials: 40, step size:200
+Blocked connections: 4215/30188
+Improvement: 73, T: 5
+Accept better result.
+Time elapsed: 339 seconds.
+========
